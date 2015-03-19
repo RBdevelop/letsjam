@@ -61,6 +61,7 @@ group :test, :development do
   gem 'binding_of_caller'
 end
 
+gem 'figaro'
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'dashing'

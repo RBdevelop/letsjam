@@ -5,26 +5,29 @@
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="Welcome" data-view="Text" data-title="Hello" data-text="Bands" data-moreinfo="Protip: You can drag the widgets around!"></div>
+      <div data-id="Welcome" data-view="Text" data-title="Welcome to Lets Jam!" data-text="Lets find and audition your next band" data-moreinfo="Find the talent and get back to Jamming! ">
+    </div>
     </li>
 
-    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="synergy" data-view="Meter" data-title="Artists" data-min="0" data-max="100"></div>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" onclick="location.href='http://localhost:3000/dashing/dashboards/lessons';">
+      <div data-id="Artists" data-view="Text" data-title="Artists" data-text="If you are looking for a band " data-moreinfo="Sign up/in Here" style="background-color: #EF2A2A"> </div>
     </li>
-
-    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="synergy" data-view="Meter" data-title="Bands" data-min="0" data-max="100"></div>
-    </li>
+    
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" onclick="location.href='http://localhost:3000/dashing/dashboards/band';">
+    <div data-id="Bands" data-view="Text" data-title="Bands" data-text="If you are looking for an Artist to Join your group " data-moreinfo="Sign up/in Here" style="background-color: #3136A6"> </div>
+    <li>
 
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="buzzwords" data-view="List" data-unordered="true" data-title="Hot Artist" data-moreinfo="# of times said around the office"></div>
+      <div data-id="buzzwords" data-view="List" data-unordered="true" data-title="Hot Artist" data-moreinfo="# and growing" style="background-color: #EFDF2A"></div>
     </li>
 
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="valuation" data-view="Number" data-title="Artist and Banding looking to meet" data-moreinfo="In billions"></div>
     </li>
 
-    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="buzzwords" data-view="List" data-unordered="true" data-title="Buzz words  data-moreinfo="# of times said in Slack"style="background-color:#128FFF"></div>
+    </li>
   </ul>
   
 </div>
